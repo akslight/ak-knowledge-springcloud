@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ak-admin-client" />
+        <module name="ak-admin-server" />
+        <module name="ak-config-client" />
+        <module name="ak-config-server" />
+        <module name="ak-eureka-client" />
+        <module name="ak-eureka-server" />
+        <module name="ak-feign-service" />
+        <module name="ak-gateway" />
+        <module name="ak-hystrix-service" />
+        <module name="ak-ribbon-service" />
+        <module name="ak-sleuth-service" />
+        <module name="ak-zuul-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
